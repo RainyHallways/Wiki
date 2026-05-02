@@ -257,7 +257,7 @@ export default defineConfig({
         },],
         externalLinkIcon: true, // 展示站外链接箭头 ↗
         footer: {
-            message: `<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">桂ICP备2025061689号-1</a> | 文档版本 ${pkg.version}`,
+            message: `文档版本 ${pkg.version} | Released under the ${pkg.license} License.`,
             copyright: `版权所有 © 2023-${new Date().getFullYear()} ToolDelta`,
         },
         docFooter: {
